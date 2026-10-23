@@ -1,0 +1,611 @@
+{
+  "cases": [
+    {
+      "title": "Obstructed Corridor Egress Door",
+      "location": "Student Union, Stairwell 2 West",
+      "category": "Building or maintenance",
+      "user_concern": "High",
+      "user_description": "Heavy stacked crates and packaging blocking the main emergency exit swing path.",
+      "image_path": "C:\\Users\\Purvi\\Downloads\\reality_check_ai\\data\\images\\inspection_8bb039e107.jpg",
+      "after_image_path": null,
+      "status": "Action Required",
+      "owner": "Unassigned",
+      "deadline": "2026-10-23",
+      "ai_model": "gemma-4-26b-a4b-it",
+      "is_sample": false,
+      "ai_findings": {
+        "summary": "Multiple cardboard boxes and a large black trash bin are physically obstructing the path and swing radius of a designated emergency exit door.",
+        "visual_observations": [
+          "A stack of several cardboard boxes of varying sizes positioned directly in front of the right-hand leaf of a dark gray double door.",
+          "A large black plastic wheeled trash bin placed immediately adjacent to the boxes, partially overlapping the door's threshold.",
+          "A green 'EXIT' sign with a running man pictogram mounted above the door frame.",
+          "A red 'FIRE EXTINGUISHER' sign and a red fire extinguisher mounted on the wall to the right of the door.",
+          "A metal horizontal panic bar (push bar) on the door that is obstructed by the proximity of the trash bin and boxes."
+        ],
+        "possible_interpretations": [
+          "The items may have been temporarily placed there during a delivery or facility maintenance cycle.",
+          "The placement might be an attempt to utilize the hallway for temporary storage due to lack of space elsewhere."
+        ],
+        "unconfirmed_information": [
+          "The exact direction and distance of the door's swing path cannot be confirmed without physical testing.",
+          "The weight and stability of the stacked cardboard boxes.",
+          "Whether the exit door is currently functional and unlocked from the interior."
+        ],
+        "potential_consequences": [
+          "Delayed or prevented egress during an emergency evacuation, posing a significant life safety risk.",
+          "Increased risk of trips or falls in a high-stress or low-visibility (smoke-filled) environment.",
+          "Interference with emergency responder access to the stairwell."
+        ],
+        "visual_confidence": "High",
+        "confidence_rationale": "The image is well-lit, in focus, and clearly shows the spatial relationship between the obstructions and the emergency exit door.",
+        "suggested_priority": "Immediate Attention",
+        "priority_rationale": "The obstruction of a primary emergency exit is a critical life-safety violation that requires instant remediation.",
+        "verification_checklist": [
+          {
+            "id": 1,
+            "task": "Physically test the door's swing to determine the full extent of the obstruction.",
+            "completed": false,
+            "notes": ""
+          },
+          {
+            "id": 2,
+            "task": "Check the stability of the box stack to ensure it does not pose a falling hazard.",
+            "completed": false,
+            "notes": ""
+          },
+          {
+            "id": 3,
+            "task": "Verify if any other exits in Stairwell 2 West are similarly obstructed.",
+            "completed": false,
+            "notes": ""
+          }
+        ],
+        "recommended_actions": [
+          "Immediately remove all boxes and the trash bin from the door's swing path.",
+          "Relocate the items to a designated storage or waste management area that does not impede egress.",
+          "Inspect the area to ensure no further obstructions are placed in front of fire safety equipment or exits."
+        ],
+        "suggested_report_message": "URGENT: Emergency exit obstruction identified at Student Union, Stairwell 2 West. Multiple cardboard boxes and a large trash bin are currently blocking the swing path of the exit door. Immediate clearance is required to ensure compliance with fire safety and egress protocols.",
+        "limitations": "This assessment is based on a single-angle photographic observation; physical verification of door mechanics and full swing radius is required for complete safety clearance."
+      },
+      "investigation_notes": [
+        {
+          "timestamp": "2026-10-23 13:52",
+          "author": "Intake Inspector",
+          "text": "Inspection logged and visual evidence processed by Gemma."
+        }
+      ],
+      "history": [
+        {
+          "timestamp": "2026-10-23 13:52",
+          "action": "Case created from visual intake",
+          "actor": "Gemma Multimodal Pipeline"
+        }
+      ],
+      "resolution": null,
+      "id": "RC-2026-006",
+      "created_at": "2026-10-23 13:52:57",
+      "updated_at": "2026-10-23 13:52:57"
+    },
+    {
+      "title": "Obstructed Corridor Egress Door",
+      "location": "Student Union, Stairwell 2 West",
+      "category": "Cleanliness or waste",
+      "user_concern": "High",
+      "user_description": "Heavy stacked crates and packaging blocking the main emergency exit swing path.",
+      "image_path": "C:\\Users\\Purvi\\Downloads\\reality_check_ai\\data\\images\\inspection_6069a5aed0.jpg",
+      "after_image_path": null,
+      "status": "Open",
+      "owner": "Unassigned",
+      "deadline": "2026-10-23",
+      "ai_model": "gemma-4-26b-a4b-it",
+      "is_sample": false,
+      "ai_findings": {
+        "summary": "The image depicts a populated computer laboratory or workspace with multiple individuals using laptops and several power strips/cables on the table surfaces.",
+        "visual_observations": [
+          "Multiple individuals seated at long blue tables engaged with laptops in a classroom-style setting",
+          "Several power strips, multi-plug adapters, and various electrical cables located on the blue table surface in the foreground",
+          "Personal items including backpacks, notebooks, and a mobile device distributed across the work surfaces"
+        ],
+        "possible_interpretations": [
+          "The room is being used for a technical workshop, training session, or collaborative study session",
+          "The concentration of cables suggests a temporary requirement for high-density power access for multiple portable devices"
+        ],
+        "unconfirmed_information": [
+          "The location and existence of the 'heavy stacked crates' and 'emergency exit' mentioned in the operator context, as they are not visible in this frame",
+          "Whether electrical cables extend from the tabletop to the floor, creating a potential trip hazard",
+          "The total electrical load currently placed on the visible power strips"
+        ],
+        "potential_consequences": [
+          "Trip hazards if cables trail from the tables into the floor walking paths",
+          "Electrical overheating or circuit overload if power strips are overtaxed or daisy-chained out of view"
+        ],
+        "visual_confidence": "High",
+        "confidence_rationale": "The image is well-lit, in focus, and provides a clear, unobstructed view of the immediate foreground workspace and the room layout.",
+        "suggested_priority": "Moderate",
+        "priority_rationale": "While the primary reported hazard (exit blockage) is not visible in this image, the visible concentration of electrical equipment and cables presents a secondary safety management concern.",
+        "verification_checklist": [
+          {
+            "id": 1,
+            "task": "Physically inspect the floor area surrounding the tables for trailing cables or trip hazards",
+            "completed": true,
+            "notes": ""
+          },
+          {
+            "id": 2,
+            "task": "Locate Stairwell 2 West to verify the reported exit blockage mentioned in the context",
+            "completed": true,
+            "notes": ""
+          },
+          {
+            "id": 3,
+            "task": "Check power strips for signs of physical damage or thermal stress",
+            "completed": true,
+            "notes": ""
+          }
+        ],
+        "recommended_actions": [
+          "Route cables away from walking paths or secure them with cable management tools",
+          "Perform a physical sweep of the reported Stairwell 2 West location to clear the emergency exit",
+          "Ensure power strips are used according to manufacturer safety limits to prevent overload"
+        ],
+        "suggested_report_message": "Visual inspection of the provided photo shows a computer lab environment; however, the reported 'crates blocking emergency exit in Stairwell 2 West' is not visible in this image. Note that visible electrical cabling and power strips on the tables require monitoring for trip hazards and electrical load safety. Please confirm if the report pertains to a different area or if a different photo is required.",
+        "limitations": "This assessment is strictly limited to the single visual perspective provided and cannot confirm the status of hazards located outside the camera's field of view."
+      },
+      "investigation_notes": [
+        {
+          "timestamp": "2026-10-23 13:43",
+          "author": "Intake Inspector",
+          "text": "Inspection logged and visual evidence processed by Gemma."
+        }
+      ],
+      "history": [
+        {
+          "timestamp": "2026-10-23 13:43",
+          "action": "Case created from visual intake",
+          "actor": "Gemma Multimodal Pipeline"
+        }
+      ],
+      "resolution": null,
+      "id": "RC-2026-005",
+      "created_at": "2026-10-23 13:43:26",
+      "updated_at": "2026-10-23 13:44:30"
+    },
+    {
+      "title": "Obstructed Corridor Egress Door",
+      "location": "Student Union, Stairwell 2 West",
+      "category": "Building or maintenance",
+      "user_concern": "High",
+      "user_description": "Heavy stacked crates and packaging blocking the main emergency exit swing path.",
+      "image_path": "C:\\Users\\Purvi\\Downloads\\reality_check_ai\\data\\images\\inspection_da6aa82c48.jpg",
+      "after_image_path": null,
+      "status": "Action Required",
+      "owner": "Unassigned",
+      "deadline": "2026-10-23",
+      "ai_model": "gemma-4-26b-a4b-it",
+      "is_sample": false,
+      "ai_findings": {
+        "summary": "The provided image displays a cardboard box containing various promotional items (swag) and does not depict the reported emergency exit blockage.",
+        "visual_observations": [
+          "A small cardboard box containing multiple promotional items",
+          "A black circular object with 'CYPHER HACKATHON' and 'BREAK REBUILD' text",
+          "A long, thin black object with 'CYPHER HACKATHON 4.0' printed in white and purple",
+          "A round badge/button with 'MSW STUDENT TODAY LEADER TOMORROW' and website URLs",
+          "A metal keychain with a black tag labeled 'CYPHER'",
+          "A white card/sticker featuring a red illustrated character"
+        ],
+        "possible_interpretations": [
+          "The user may have accidentally uploaded an incorrect photograph that does not correspond to the reported hazard.",
+          "The items are promotional materials for an event titled 'Cypher Hackathon'."
+        ],
+        "unconfirmed_information": [
+          "The physical location of the reported 'heavy stacked crates' and packaging.",
+          "The actual status of the emergency exit swing path in Stairwell 2 West.",
+          "Whether the reported hazard exists in the location specified in the context."
+        ],
+        "potential_consequences": [
+          "A critical life-safety hazard (blocked exit) may remain unaddressed if the report is dismissed due to the incorrect image.",
+          "Delayed emergency egress in the event of a fire or building evacuation."
+        ],
+        "visual_confidence": "High",
+        "confidence_rationale": "The items within the box are clearly visible, in focus, and the text on the promotional materials is easily legible.",
+        "suggested_priority": "Immediate Attention",
+        "priority_rationale": "While the image itself shows no hazard, the operator's text describes a high-severity life-safety violation (blocked emergency exit), which requires immediate physical verification to prevent potential tragedy.",
+        "verification_checklist": [
+          {
+            "id": 1,
+            "task": "Conduct an immediate physical walkthrough of Stairwell 2 West.",
+            "completed": true,
+            "notes": ""
+          },
+          {
+            "id": 2,
+            "task": "Inspect the main emergency exit swing path for any crates, packaging, or obstructions.",
+            "completed": true,
+            "notes": ""
+          },
+          {
+            "id": 3,
+            "task": "Verify that the exit path meets minimum clearance requirements for emergency egress.",
+            "completed": false,
+            "notes": ""
+          }
+        ],
+        "recommended_actions": [
+          "Immediately dispatch facilities or security personnel to Stairwell 2 West for physical inspection.",
+          "Clear any identified obstructions from the emergency exit path immediately.",
+          "Verify the correct photo upload to ensure the reporting system is functioning accurately."
+        ],
+        "suggested_report_message": "URGENT DISCREPANCY: The submitted photograph shows promotional event items and does not match the reported high-priority hazard (blocked emergency exit in Stairwell 2 West). Requesting immediate physical verification of Stairwell 2 West to ensure emergency egress paths are clear and compliant with safety regulations.",
+        "limitations": "This AI assessment is limited to the visual content of the provided image, which appears to be unrelated to the reported text-based hazard. A single-angle photo cannot confirm the absence of hazards in a different location."
+      },
+      "investigation_notes": [
+        {
+          "timestamp": "2026-10-23 13:40",
+          "author": "Intake Inspector",
+          "text": "Inspection logged and visual evidence processed by Gemma."
+        }
+      ],
+      "history": [
+        {
+          "timestamp": "2026-10-23 13:40",
+          "action": "Case created from visual intake",
+          "actor": "Gemma Multimodal Pipeline"
+        }
+      ],
+      "resolution": null,
+      "id": "RC-2026-004",
+      "created_at": "2026-10-23 13:40:58",
+      "updated_at": "2026-10-23 13:41:29"
+    },
+    {
+      "id": "RC-2026-003",
+      "title": "Severe Concrete Walkway Slab Heave & Trip Hazard",
+      "location": "North Quad Pedestrian Plaza, Near Library Entrance",
+      "category": "Road or public space",
+      "user_concern": "Medium",
+      "user_description": "Uneven concrete pavement slab sticking up almost 2 inches along high-traffic student pathway.",
+      "image_path": "C:\\Users\\Purvi\\Downloads\\reality_check_ai\\data\\images\\sample_trip_hazard.jpg",
+      "after_image_path": null,
+      "created_at": "2026-10-23 08:30:00",
+      "updated_at": "2026-10-23 13:25:46",
+      "status": "Investigating",
+      "owner": "Elena Rostova (Civil Works)",
+      "deadline": "2026-10-26",
+      "ai_model": "gemma-4-26b-a4b-it",
+      "is_sample": true,
+      "ai_findings": {
+        "summary": "Differential settlement or tree root intrusion causing an abrupt vertical displacement of approximately 40-50mm between adjacent concrete paving slabs on a primary pedestrian route.",
+        "visual_observations": [
+          "Sharp vertical ledge between slab joint sections",
+          "Spalling and edge fracture along the raised slab border",
+          "High-contrast shadow indicating significant vertical offset",
+          "Located directly along paved thoroughfare leading to public building entrance"
+        ],
+        "possible_interpretations": [
+          "Subsurface tree root heave from nearby mature oak trees",
+          "Soil erosion or freeze-thaw subgrade destabilization",
+          "Heavy maintenance vehicle loading exceeding slab design capacity"
+        ],
+        "unconfirmed_information": [
+          "Exact physical displacement measurement in millimeters",
+          "Presence of active underground utilities immediately underneath the joint",
+          "Nighttime illumination levels over this specific walkway section"
+        ],
+        "potential_consequences": [
+          "Pedestrian trip and fall injuries, particularly in low-light or rush hours",
+          "Accessibility barrier and ADA non-compliance for wheelchair users",
+          "Accelerated slab fracturing under repetitive pedestrian load"
+        ],
+        "visual_confidence": "High",
+        "confidence_rationale": "Clear geometric ledge profile, continuous crack line, and surface texture contrast.",
+        "suggested_priority": "Moderate",
+        "priority_rationale": "Active trip hazard in a high-traffic pedestrian corridor, though not presenting an immediate life-safety collapse.",
+        "verification_checklist": [
+          {
+            "id": 1,
+            "task": "Measure exact vertical height delta with digital gauge",
+            "completed": true,
+            "notes": "Measured 46mm max delta"
+          },
+          {
+            "id": 2,
+            "task": "Paint high-visibility safety yellow warning line on ledge",
+            "completed": false,
+            "notes": "Spray paint requisitioned"
+          },
+          {
+            "id": 3,
+            "task": "Assess whether concrete grinding or slab mudjacking is feasible",
+            "completed": false,
+            "notes": "Contractor quote pending"
+          }
+        ],
+        "recommended_actions": [
+          "Apply temporary high-visibility warning paint immediately",
+          "Place temporary cone or ramp if wheelchair accessible detour is distant",
+          "Schedule concrete scarifying / grinding repair crew within 5 business days"
+        ],
+        "suggested_report_message": "MAINTENANCE REQUEST: Walkway slab heave of ~46mm detected outside North Quad Library entrance. Poses trip hazard. Please apply safety marking and schedule surface beveling.",
+        "limitations": "Surface view cannot reveal root diameter beneath or underlying soil moisture conditions.",
+        "annotations": [
+          {
+            "label": "Raised Ledge",
+            "x": 50,
+            "y": 45,
+            "note": "46mm vertical offset"
+          }
+        ]
+      },
+      "investigation_notes": [
+        {
+          "timestamp": "2026-10-23 09:10",
+          "author": "Elena Rostova",
+          "text": "Gauge measurement confirmed 46mm. ADA threshold is exceeded (>6mm). Yellow marking scheduled for noon."
+        }
+      ],
+      "history": [
+        {
+          "timestamp": "2026-10-23 08:30",
+          "action": "Reported via mobile inspection intake",
+          "actor": "Student Peer Inspector"
+        },
+        {
+          "timestamp": "2026-10-23 08:45",
+          "action": "Assigned to Elena Rostova (Civil Works)",
+          "actor": "Admin"
+        }
+      ],
+      "resolution": null
+    },
+    {
+      "id": "RC-2026-002",
+      "title": "Ceiling Water Seepage Above Electrical Distribution Subpanel",
+      "location": "Basement Utility Room U-104",
+      "category": "Building or maintenance",
+      "user_concern": "High",
+      "user_description": "Discoloration and visible moisture dripping onto conduit raceways leading down into building breaker panel.",
+      "image_path": "C:\\Users\\Purvi\\Downloads\\reality_check_ai\\data\\images\\sample_water_leak.jpg",
+      "after_image_path": null,
+      "created_at": "2026-10-22 15:40:00",
+      "updated_at": "2026-10-23 13:25:46",
+      "status": "Action Required",
+      "owner": "David Kim (Master Electrician)",
+      "deadline": "2026-10-23",
+      "ai_model": "gemma-4-26b-a4b-it",
+      "is_sample": true,
+      "ai_findings": {
+        "summary": "Moisture ring and water droplets visible on drywall ceiling situated vertically above metallic conduit pipes entering an electrical subpanel.",
+        "visual_observations": [
+          "Circular water stain approx 40cm in diameter on ceiling plaster",
+          "Active water droplet bead formation directly above rigid steel conduit",
+          "Electrical enclosure housing circuit breakers mounted 1 meter below seepage zone",
+          "Rust stains beginning to form on galvanized conduit coupling"
+        ],
+        "possible_interpretations": [
+          "HVAC condensation overflow line backed up on floor above",
+          "Domestic plumbing supply pipe pinhole leak within ceiling cavity",
+          "Rainwater ingress from degraded exterior wall flashing"
+        ],
+        "unconfirmed_information": [
+          "Source of the water above the ceiling plenum",
+          "Whether liquid has entered the interior of the electrical enclosure",
+          "Voltage rating and live circuits fed by the subpanel"
+        ],
+        "potential_consequences": [
+          "Short circuit, breaker arc flash, or localized fire inside utility panel",
+          "Electrocution hazard for maintenance personnel touching enclosure",
+          "Unscheduled power outage to downstream critical server rooms"
+        ],
+        "visual_confidence": "High",
+        "confidence_rationale": "High contrast between moisture discolored drywall and clean surrounding substrate; conduit proximity is unmistakable.",
+        "suggested_priority": "High",
+        "priority_rationale": "Water ingress adjacent to energized electrical distribution creates combined electrocution and equipment destruction risk.",
+        "verification_checklist": [
+          {
+            "id": 1,
+            "task": "De-energize subpanel feed if moisture enters enclosure",
+            "completed": true,
+            "notes": "Subpanel inspected; interior dry for now"
+          },
+          {
+            "id": 2,
+            "task": "Inspect floor above (Room 104 plumbing chase) to locate leak origin",
+            "completed": false,
+            "notes": "Waiting for master key to plumbing shaft"
+          },
+          {
+            "id": 3,
+            "task": "Install temporary drip catchment diverter away from electrical gear",
+            "completed": false,
+            "notes": "Catchment tarp staged"
+          },
+          {
+            "id": 4,
+            "task": "Conduct thermal imaging sweep across breaker panel",
+            "completed": false,
+            "notes": "Scheduled for 14:00 today"
+          }
+        ],
+        "recommended_actions": [
+          "Deploy certified electrician with calibrated insulated tools to monitor panel",
+          "Shut off isolation valves in plumbing chase above if pipe rupture confirmed",
+          "Set up temporary protective water shield over conduit until ceiling repaired"
+        ],
+        "suggested_report_message": "CRITICAL MAINTENANCE DISPATCH: Water seepage observed directly above electrical subpanel in Room U-104. Urgent plumbing and electrical investigation required to prevent equipment damage.",
+        "limitations": "Camera cannot penetrate ceiling tiles to verify hidden piping or water accumulation depth.",
+        "annotations": [
+          {
+            "label": "Water Stain",
+            "x": 48,
+            "y": 20,
+            "note": "Primary leak zone"
+          },
+          {
+            "label": "Electrical Panel",
+            "x": 50,
+            "y": 65,
+            "note": "Energized target equipment"
+          }
+        ]
+      },
+      "investigation_notes": [
+        {
+          "timestamp": "2026-10-22 16:30",
+          "author": "David Kim",
+          "text": "Verified panel interior is currently dry. Moisture is traveling down outer surface of conduit."
+        },
+        {
+          "timestamp": "2026-10-23 08:00",
+          "author": "Facilities Lead",
+          "text": "Escalated to mechanical plumbing vendor for urgent inspection."
+        }
+      ],
+      "history": [
+        {
+          "timestamp": "2026-10-22 15:40",
+          "action": "Case created from visual inspection",
+          "actor": "Inspector J. Patel"
+        },
+        {
+          "timestamp": "2026-10-22 16:00",
+          "action": "Status changed to Action Required",
+          "actor": "Operations Dispatch"
+        }
+      ],
+      "resolution": null
+    },
+    {
+      "id": "RC-2026-001",
+      "title": "Blocked Emergency Fire Exit Stairwell",
+      "location": "Science Wing B, 2nd Floor Stairwell 4",
+      "category": "Safety or access",
+      "user_concern": "High",
+      "user_description": "Wooden pallets and shipping crates dumped right in front of the emergency push-bar exit door during lab deliveries.",
+      "image_path": "C:\\Users\\Purvi\\Downloads\\reality_check_ai\\data\\images\\sample_fire_exit.jpg",
+      "after_image_path": "C:\\Users\\Purvi\\Downloads\\reality_check_ai\\data\\images\\sample_fire_exit_cleared.jpg",
+      "created_at": "2026-10-21 09:30:00",
+      "updated_at": "2026-10-23 13:25:46",
+      "status": "Resolved",
+      "owner": "Marcus Vance (Safety Officer)",
+      "deadline": "2026-10-22",
+      "ai_model": "gemma-4-26b-a4b-it",
+      "is_sample": true,
+      "ai_findings": {
+        "summary": "Large wooden shipping pallets and cardboard crates are positioned directly in front of an outward-swinging emergency exit door marked with an illuminated exit sign.",
+        "visual_observations": [
+          "Stacked wooden pallets (approx. 1.2m wide) located within 0.5m of the emergency exit door",
+          "Push-bar emergency egress door swing path is clearly compromised",
+          "Illuminated green 'EMERGENCY EXIT' signage visible above door frame",
+          "Floor surface in corridor shows scuff marks from dragged freight"
+        ],
+        "possible_interpretations": [
+          "Temporary staging of lab equipment deliveries left unattended",
+          "Storage spillover from adjacent overcrowded loading bay",
+          "Disregard of fire safety egress regulations during renovation"
+        ],
+        "unconfirmed_information": [
+          "Whether the crates are currently empty or containing hazardous contents",
+          "Duration that the blockage has been in place",
+          "Whether an alternate unlocked egress is accessible nearby within code limits"
+        ],
+        "potential_consequences": [
+          "Impeded emergency evacuation during building alarm or fire event",
+          "Crush injury or panic blockage at dead-end stairwell threshold",
+          "Severe regulatory violation under National Life Safety Code guidelines"
+        ],
+        "visual_confidence": "High",
+        "confidence_rationale": "Clear, unobstructed sightline with prominent spatial proximity between the obstruction and emergency hardware.",
+        "suggested_priority": "Immediate Attention",
+        "priority_rationale": "Direct obstruction of a certified life-safety egress route presents immediate risk to human occupants in an evacuation.",
+        "verification_checklist": [
+          {
+            "id": 1,
+            "task": "Physically confirm whether push-bar door can open past 30 degrees",
+            "completed": true,
+            "notes": "Blocked at 15 degrees swing"
+          },
+          {
+            "id": 2,
+            "task": "Identify delivery manifest tag or department owner on crate labels",
+            "completed": true,
+            "notes": "Tagged for Dept of Biophysics"
+          },
+          {
+            "id": 3,
+            "task": "Dispatch rapid relocation crew to clear corridor immediately",
+            "completed": true,
+            "notes": "Crates relocated to storage unit S-12"
+          },
+          {
+            "id": 4,
+            "task": "Obtain post-clearance photograph for verification record",
+            "completed": true,
+            "notes": "Uploaded clear photo"
+          }
+        ],
+        "recommended_actions": [
+          "Dispatch immediate facilities staff to relocate all pallets to designated holding room",
+          "Issue safety violation advisory to Science Wing delivery dock staff",
+          "Conduct follow-up sweep within 4 hours to verify egress remains clear"
+        ],
+        "suggested_report_message": "URGENT SAFETY NOTICE: Emergency Exit Stairwell 4 in Science Wing B is severely obstructed by stacked wooden pallets. Please dispatch maintenance immediately to restore code compliance.",
+        "limitations": "Visual assessment cannot ascertain weight of materials or whether door locking hardware was compromised.",
+        "annotations": [
+          {
+            "label": "Obstruction Footprint",
+            "x": 42,
+            "y": 70,
+            "note": "Primary physical blockage"
+          },
+          {
+            "label": "Emergency Hardware",
+            "x": 50,
+            "y": 30,
+            "note": "Designated egress path"
+          }
+        ]
+      },
+      "investigation_notes": [
+        {
+          "timestamp": "2026-10-21 10:05",
+          "author": "Marcus Vance",
+          "text": "Called loading dock coordinator. Driver left materials while waiting for freight elevator."
+        },
+        {
+          "timestamp": "2026-10-21 11:20",
+          "author": "Facilities Crew 2",
+          "text": "Pallets cleared and hallway swept. Photo captured for record."
+        }
+      ],
+      "history": [
+        {
+          "timestamp": "2026-10-21 09:30",
+          "action": "Case created from visual inspection",
+          "actor": "Automated Gemma Intake"
+        },
+        {
+          "timestamp": "2026-10-21 09:45",
+          "action": "Assigned to Marcus Vance (Safety Officer)",
+          "actor": "Admin"
+        },
+        {
+          "timestamp": "2026-10-21 11:30",
+          "action": "Verification photo attached",
+          "actor": "Facilities Crew 2"
+        },
+        {
+          "timestamp": "2026-10-22 14:15",
+          "action": "Resolved with human approval",
+          "actor": "Chief Inspector L. Ramos"
+        }
+      ],
+      "resolution": {
+        "resolved_by": "Chief Inspector L. Ramos",
+        "resolved_at": "2026-10-22 14:15:00",
+        "verification_notes": "Corridor fully inspected and confirmed 100% clear. Delivery guidelines reinforced with logistics vendor.",
+        "approval_status": "Approved"
+      }
+    }
+  ]
+}
